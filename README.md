@@ -3,6 +3,21 @@
 Explains a pull request in plain words, as a page you can ask questions on. Read-only: it never
 edits, comments on or approves the PR. Works in GitHub Copilot CLI and Claude Code.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/page-dark.png">
+  <img alt="Sample page: title, summary, why, the numbered changes with before and after, and the whole picture" src="docs/page-light.png">
+</picture>
+
+Each change gets a chapter: a picture of the flow, the "why not the simple way?" answer, and a
+code walk where each step lights its lines.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/code-dark.png">
+  <img alt="Sample chapter: flow picture, why-not answer, and the code walk with one line lit" src="docs/code-light.png">
+</picture>
+
+<sub>Sample from a made-up PR.</sub>
+
 ## Needs
 
 - [`gh`](https://cli.github.com), logged in (`gh auth login`), with read access to the PR's repo
