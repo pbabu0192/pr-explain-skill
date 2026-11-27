@@ -58,3 +58,7 @@ git commit -am "sync t2pr $(cat T2PR_VERSION)" && git push
 ```
 
 `sync.sh` fails if a part that `SKILL.md` overrides is gone; then update `SKILL.md` first.
+
+---
+
+<sub>From [t2pr](https://github.com/pbabu0192/t2pr), a ticket-to-PR harness for Copilot CLI.</sub>
